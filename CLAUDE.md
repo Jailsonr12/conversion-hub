@@ -10,7 +10,8 @@ SHA-256 e envia para Meta Conversions API e Google Ads. Log em PostgreSQL + retr
 - `compose.yaml` com Postgres local. Teste de contexto passando.
 
 ## Estudo
-`docs/estudo-integracoes.md`: mercado, contratos de Meta CAPI / Google, webhooks
+`docs/estudo-mercado.md`: demanda, concorrência (Utmify, Stape...) e onde se diferenciar.
+`docs/estudo-integracoes.md`: plataformas, contratos de Meta CAPI / Google, webhooks
 de origem e desenho de idempotência + retry. Atenção: o Google agora é a
 **Data Manager API** (`events.ingest`), não a Google Ads API, que está bloqueada
 para novos usuários de import offline desde 15/06/2026.
