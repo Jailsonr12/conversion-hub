@@ -9,6 +9,12 @@ SHA-256 e envia para Meta Conversions API e Google Ads. Log em PostgreSQL + retr
 - Esqueleto Spring Boot 4.2 / Java 25 (Web, Validation, JPA, PostgreSQL, Flyway, Actuator, Testcontainers).
 - `compose.yaml` com Postgres local. Teste de contexto passando.
 
+## Estudo
+`docs/estudo-integracoes.md`: mercado, contratos de Meta CAPI / Google, webhooks
+de origem e desenho de idempotência + retry. Atenção: o Google agora é a
+**Data Manager API** (`events.ingest`), não a Google Ads API, que está bloqueada
+para novos usuários de import offline desde 15/06/2026.
+
 ## Próximo passo
 Primeira migração Flyway (`V1__...sql`): tabela de log dos eventos recebidos.
 Ponto em discussão: **idempotência** — o mesmo webhook pode chegar duas vezes
