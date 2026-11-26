@@ -1,5 +1,7 @@
 # conversion-hub — estado do projeto
 
+O plano de negócio completo está em `docs/plano-negocio.md`. Leia antes de sugerir escopo.
+
 Recebe webhook de compra/lead (Hotmart, Shopify, CRMs), normaliza, aplica hash
 SHA-256 e envia para Meta Conversions API e Google Ads. Log em PostgreSQL + retry.
 
