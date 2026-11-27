@@ -9,6 +9,10 @@ SHA-256 e envia para Meta Conversions API e Google Ads. Log em PostgreSQL + retr
 - Esqueleto Spring Boot 4.2 / Java 25 (Web, Validation, JPA, PostgreSQL, Flyway, Actuator, Testcontainers).
 - `compose.yaml` com Postgres local. Teste de contexto passando.
 
+## Decisões
+`docs/decisoes.md`: oferta, MVP enxuto (Hotmart → Meta, uma tabela), site do
+serviço separado do portfólio, layout A escolhido (`docs/design/`). Leia antes de propor escopo.
+
 ## Estudo
 `docs/estudo-mercado.md`: demanda, concorrência (Utmify, Stape...) e onde se diferenciar.
 `docs/estudo-integracoes.md`: plataformas, contratos de Meta CAPI / Google, webhooks
